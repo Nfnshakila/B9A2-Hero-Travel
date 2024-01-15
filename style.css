@@ -1,0 +1,27 @@
+*{
+    margin: 20px;
+}
+/* banner style */
+.banner-content{
+max-width: 800px;
+text-align: center;
+margin: 0 auto;
+}
+/* 
+.banner-title{ 
+    font-size: 65px;
+    font-weight: 800;
+    /* display: flex; */
+}
+/* .banner-description{
+    text-align: center;
+    font-size: 15px;
+    font-weight: 400;
+
+
+}
+.banner-input{
+    width: auto;
+    height: 30px;
+    display: flex; */
+} */
