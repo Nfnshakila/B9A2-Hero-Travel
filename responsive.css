@@ -1,0 +1,64 @@
+@media  screen and (max-width:600px){
+    .banner{
+        width: auto;
+        height: auto;
+        margin: 0px auto;
+        flex-direction: column;
+    }
+    
+    .banner-content{
+        padding: 0px 0px;
+        
+    }
+    .banner-title{
+        font-size: 20px;
+    }
+    .banner-input{
+        text-align: center;
+        flex-direction: column;
+    }
+    .our-popular-tour-section{
+        flex-direction: column;
+        width: 100%;
+    }
+    .our-popular-image{
+       width: 100%;
+    }
+   .image-container,.text-container{
+    width: 100%;
+   }
+   .img-container{
+    display: flex;
+    flex-direction: column;
+   }
+
+   .Why-Choose-Us-first-2{
+    flex-direction: column;
+    margin: 0 auto;
+   }
+   .handpicked-hotels{
+    width: auto;
+   }
+   .world-class-service{
+    width: auto;
+   }
+   .best-price-guarantee{
+    width: auto;
+   }
+   .newsletter-section{
+    flex-direction: column;
+   }
+   .newsletter-text{
+    width: auto;
+   }
+   .newsletter-img{
+    width: auto;
+   }
+   .navber{
+    flex-direction: column;
+   }
+   .footer{
+    width: 100%;
+   }
+
+}    

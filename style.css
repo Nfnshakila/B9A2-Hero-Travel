@@ -1,27 +1,292 @@
 *{
-    margin: 20px;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+} 
+
+.navber{
+   
+   width: 95%;
+   height: 120px;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    margin: 0 auto;
+
+}
+.philly-travel{
+    color: #131318;
+}
+.philly-icone-header{
+    display: flex;
+}
+.philly-header{
+    color: #FF5400;
+    font-size: 25px;
+    font-weight: 800;
+}
+nav ul{
+    margin-right: 20px;
+    
+}
+nav ul li{
+    display: inline-block;
+    margin: 0 5px;
 }
 /* banner style */
+.banner{
+    background-image: url(Images/Group\ 13\ \(1\)\ \(1\).png);
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 15px;
+    /* width: 1170px;  */
+    height: 500px; 
+
+}
 .banner-content{
 max-width: 800px;
 text-align: center;
 margin: 0 auto;
+padding-top: 40px;
+justify-content: center;
+
 }
-/* 
-.banner-title{ 
+
+.banner-title{
+    color: #FFF;
     font-size: 65px;
     font-weight: 800;
-    /* display: flex; */
 }
-/* .banner-description{
+ .banner-description{
+    color: #FFF;
     text-align: center;
     font-size: 15px;
     font-weight: 400;
+    margin-top: 12px;
+}
 
+.banner-input{
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin-top: 20px;
+}
+.button-find-more{
+    border-radius: 3px;
+    background-color:#FF5400; 
+}
+/* our popular ture section */
+.our-popular-tour-section{
+    display: flex;
+    gap: 15px;
+    justify-content: space-around;
+    padding: 15px;
+    
+}
+.our-popular-paragraph{
+    margin-top: 12px;
+}
+.our-popular-header{
+    color: black;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+.our-popular-description{
+    font-size: 15px;
+    font-weight: 400;
+    width:600px ;
+    height:250px ;
+    color: darkslategray;
+}
+.read-more-button{
+    padding: 5px;
+    border-radius: 3px;
+    background-color: red;
+    margin-top: 12px;
+}
+.our-popular-image img{
+    height: 550px;
+    width: 550px;
+}
+
+.destination-header{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+.destination-paragraph{
+    text-align: center;
+    font-size: 15px;
+    font-weight: 400;
+    color: darkslategray;
+}
+.container{
+    width: 95%;
+    margin: 0 auto;
+    /* padding: 5px;
+    display: flex;  */
+}
+.img-container{
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-rows: repeat(3,1fr);
+    gap: 4px;
+    margin-top: 20px;
 
 }
-.banner-input{
-    width: auto;
-    height: 30px;
-    display: flex; */
-} */
+.img-container img{
+width: 100%;
+height: 100%;
+} 
+.grid-item-1{
+ grid-column: 1/span 6; 
+}
+.grid-item-2{
+    grid-column: 7/span 6;
+}
+.grid-item-3{
+    grid-column: 1/span 4;   
+}
+.grid-item-4{
+    grid-column: 5/span 5;   
+}
+.grid-item-5{
+    grid-column: 10/span 3;   
+}
+.grid-item-6{
+    grid-column: 1/span 5;   
+}
+.grid-item-7{
+    grid-column: 6/span 7;   
+}
+/* Why-Choose-Us-section */
+.Why-Choose-Us-section{
+  margin-top: 20px;  
+}
+.Why-Choose-Us{
+color: #131318;
+text-align: center;
+font-size: 40px;
+font-weight: 800;
+}
+.Why-Choose-Us-description{
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+}
+.Why-Choose-Us-first-2{
+    display: flex;
+    gap: 8px;
+    margin-top: 8px;
+    margin-left: 25px;
+    margin-top: 12px;
+    
+}
+.handpic-hotels-header{
+text-align: start;
+font-size: 25px;
+font-weight: 800;
+
+}
+.handpicked-hotels{
+width: 600px;
+height: 250px;
+ border-radius: 16px;
+border: 1px solid rgba(251, 181, 99, 0.20);
+background: rgba(251, 181, 99, 0.05);
+padding: 15px 15px;
+}
+.world-class-service-header{
+    font-size: 25px;
+    font-weight: 800;
+}
+.world-class-service-paragraph{
+    font-size: 15px;
+    font-weight: 400;
+
+}
+.world-class-service{
+    width: 600px;
+    height: 254px;
+    border-radius: 15px;
+border: 1px solid rgba(41, 206, 246, 0.20);
+background: rgba(41, 206, 246, 0.05);
+padding: 15px 15px;
+}
+.best-price-guarantee{
+    width: 600px;
+    height: 254px;
+    border-radius: 15px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    justify-content: center;
+    margin: 0 auto;
+    gap: 8px;
+    margin-top: 12px;
+    padding: 15px 15px;
+}
+.best-price-guarantee-header{
+    font-size: 25px;
+    font-weight: 800;
+}
+.best-price-guarantee-paragraph{
+    font-size: 15px;
+    font-weight: 400;
+}
+.newsletter-section{
+    display: flex;
+    margin: 0 auto;
+    margin-top: 10px;
+    gap: 8px;
+    justify-content: space-around;
+}
+.input-name{
+    margin-top: 12px;
+}
+.news-paragraph{
+    margin-top: 12px;
+}
+.newsletter{
+    font-size: 25px;
+    font-weight: 800;
+}
+.newsletter-btn{
+    padding: 5px;
+    border-radius: 3px;
+
+}
+.newsletter-text{
+    width: 500px;
+    height: 250px;
+    padding: 15px 15px;
+    border-radius: 16px;
+border: 1px solid #FF5400;
+
+}
+.newsletter-img img{
+    width: 500px;
+    height: 250px;
+}
+.footer{
+    background-color: rgba(19, 19, 24, 0.05);;
+    width: 1200px;
+    height: 300px;
+    margin: 0 auto;
+    border-radius: 8px;
+    margin-top: 12px;
+    text-align: center;
+    align-items: center;
+}
+.footer-head{
+    font-size: 30px;
+    font-weight: 800;
+}
+.footer-section{
+    padding-top: 20px;
+    text-align: center;
+    align-items: center;
+}
+
